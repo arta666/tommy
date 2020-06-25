@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C23627E924A4BA3800635E30 /* TommyDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C23627E724A4BA3800635E30 /* TommyDB.xcdatamodeld */; };
+		C23627EB24A4BB3300635E30 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627EA24A4BB3300635E30 /* DataController.swift */; };
+		C23627EF24A4D4C700635E30 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627EE24A4D4C700635E30 /* ImageService.swift */; };
+		C23627F124A4FE2C00635E30 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627F024A4FE2C00635E30 /* UIViewController+Extension.swift */; };
+		C23627F324A503E000635E30 /* DetaileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627F224A503E000635E30 /* DetaileViewController.swift */; };
+		C23627F524A5094500635E30 /* FavoriteListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627F424A5094500635E30 /* FavoriteListController.swift */; };
+		C23627F724A5256400635E30 /* Photo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23627F624A5256400635E30 /* Photo+Extensions.swift */; };
 		C250299E24A3F6AD0054CE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250299D24A3F6AD0054CE3D /* AppDelegate.swift */; };
-		C25029A024A3F6AD0054CE3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250299F24A3F6AD0054CE3D /* SceneDelegate.swift */; };
-		C25029A224A3F6AD0054CE3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029A124A3F6AD0054CE3D /* ViewController.swift */; };
 		C25029A524A3F6AD0054CE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25029A324A3F6AD0054CE3D /* Main.storyboard */; };
 		C25029A724A3F6D80054CE3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25029A624A3F6D80054CE3D /* Assets.xcassets */; };
 		C25029AA24A3F6D80054CE3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25029A824A3F6D80054CE3D /* LaunchScreen.storyboard */; };
+		C25029B924A404970054CE3D /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029B824A404970054CE3D /* GalleryViewController.swift */; };
+		C25029BB24A405360054CE3D /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029BA24A405360054CE3D /* GalleryViewCell.swift */; };
+		C25029BD24A409F00054CE3D /* TommyApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029BC24A409F00054CE3D /* TommyApi.swift */; };
+		C25029C124A418540054CE3D /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C024A418540054CE3D /* Cats.swift */; };
+		C25029C324A418F40054CE3D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C224A418F40054CE3D /* Category.swift */; };
+		C25029C524A41CDC0054CE3D /* Breeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C424A41CDC0054CE3D /* Breeds.swift */; };
+		C25029C824A424F00054CE3D /* Networkabl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C724A424F00054CE3D /* Networkabl.swift */; };
+		C25029CA24A426280054CE3D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C924A426280054CE3D /* NetworkManager.swift */; };
+		F108A49604CCB8727D8669B4 /* Pods_Tommy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AF9487AD97FFF6DA209CE9 /* Pods_Tommy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16AF9487AD97FFF6DA209CE9 /* Pods_Tommy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tommy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23627E824A4BA3800635E30 /* TommyDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TommyDB.xcdatamodel; sourceTree = "<group>"; };
+		C23627EA24A4BB3300635E30 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C23627EE24A4D4C700635E30 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		C23627F024A4FE2C00635E30 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C23627F224A503E000635E30 /* DetaileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaileViewController.swift; sourceTree = "<group>"; };
+		C23627F424A5094500635E30 /* FavoriteListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListController.swift; sourceTree = "<group>"; };
+		C23627F624A5256400635E30 /* Photo+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+Extensions.swift"; sourceTree = "<group>"; };
 		C250299A24A3F6AD0054CE3D /* Tommy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tommy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C250299D24A3F6AD0054CE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C250299F24A3F6AD0054CE3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C25029A124A3F6AD0054CE3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C25029A424A3F6AD0054CE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C25029A624A3F6D80054CE3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C25029A924A3F6D80054CE3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C25029AB24A3F6D80054CE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25029B824A404970054CE3D /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		C25029BA24A405360054CE3D /* GalleryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
+		C25029BC24A409F00054CE3D /* TommyApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TommyApi.swift; sourceTree = "<group>"; };
+		C25029C024A418540054CE3D /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
+		C25029C224A418F40054CE3D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C25029C424A41CDC0054CE3D /* Breeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breeds.swift; sourceTree = "<group>"; };
+		C25029C724A424F00054CE3D /* Networkabl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkabl.swift; sourceTree = "<group>"; };
+		C25029C924A426280054CE3D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D7485659214EAF2FC528D993 /* Pods-Tommy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tommy.release.xcconfig"; path = "Target Support Files/Pods-Tommy/Pods-Tommy.release.xcconfig"; sourceTree = "<group>"; };
+		E01F77A6DA7E2120A6D61595 /* Pods-Tommy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tommy.debug.xcconfig"; path = "Target Support Files/Pods-Tommy/Pods-Tommy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F108A49604CCB8727D8669B4 /* Pods_Tommy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332EC80FF7455E3E3C4F7B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16AF9487AD97FFF6DA209CE9 /* Pods_Tommy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04D2AB820B96EAA1D992802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E01F77A6DA7E2120A6D61595 /* Pods-Tommy.debug.xcconfig */,
+				D7485659214EAF2FC528D993 /* Pods-Tommy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C250299124A3F6AC0054CE3D = {
 			isa = PBXGroup;
 			children = (
 				C250299C24A3F6AD0054CE3D /* Tommy */,
 				C250299B24A3F6AD0054CE3D /* Products */,
+				A04D2AB820B96EAA1D992802 /* Pods */,
+				332EC80FF7455E3E3C4F7B77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +119,14 @@
 		C25029B124A3F7AE0054CE3D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C25029C624A424D60054CE3D /* Network */,
+				C25029BC24A409F00054CE3D /* TommyApi.swift */,
+				C25029C024A418540054CE3D /* Cats.swift */,
+				C25029C224A418F40054CE3D /* Category.swift */,
+				C25029C424A41CDC0054CE3D /* Breeds.swift */,
+				C23627E724A4BA3800635E30 /* TommyDB.xcdatamodeld */,
+				C23627EA24A4BB3300635E30 /* DataController.swift */,
+				C23627F624A5256400635E30 /* Photo+Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -78,6 +136,8 @@
 			children = (
 				C25029A324A3F6AD0054CE3D /* Main.storyboard */,
 				C25029A824A3F6D80054CE3D /* LaunchScreen.storyboard */,
+				C25029BA24A405360054CE3D /* GalleryViewCell.swift */,
+				C23627F024A4FE2C00635E30 /* UIViewController+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -85,7 +145,9 @@
 		C25029B324A3F7C50054CE3D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C25029A124A3F6AD0054CE3D /* ViewController.swift */,
+				C25029B824A404970054CE3D /* GalleryViewController.swift */,
+				C23627F224A503E000635E30 /* DetaileViewController.swift */,
+				C23627F424A5094500635E30 /* FavoriteListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,9 +164,18 @@
 			isa = PBXGroup;
 			children = (
 				C250299D24A3F6AD0054CE3D /* AppDelegate.swift */,
-				C250299F24A3F6AD0054CE3D /* SceneDelegate.swift */,
 			);
 			path = Supports;
+			sourceTree = "<group>";
+		};
+		C25029C624A424D60054CE3D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C25029C724A424F00054CE3D /* Networkabl.swift */,
+				C25029C924A426280054CE3D /* NetworkManager.swift */,
+				C23627EE24A4D4C700635E30 /* ImageService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C25029AE24A3F6D80054CE3D /* Build configuration list for PBXNativeTarget "Tommy" */;
 			buildPhases = (
+				93652ECAD9A1B066A9BC2A7F /* [CP] Check Pods Manifest.lock */,
 				C250299624A3F6AC0054CE3D /* Sources */,
 				C250299724A3F6AC0054CE3D /* Frameworks */,
 				C250299824A3F6AC0054CE3D /* Resources */,
+				9345830104F13EC690F34A63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,14 +246,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9345830104F13EC690F34A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tommy/Pods-Tommy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tommy/Pods-Tommy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tommy/Pods-Tommy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93652ECAD9A1B066A9BC2A7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tommy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C250299624A3F6AC0054CE3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25029A224A3F6AD0054CE3D /* ViewController.swift in Sources */,
+				C23627F124A4FE2C00635E30 /* UIViewController+Extension.swift in Sources */,
+				C23627E924A4BA3800635E30 /* TommyDB.xcdatamodeld in Sources */,
+				C23627EF24A4D4C700635E30 /* ImageService.swift in Sources */,
+				C25029CA24A426280054CE3D /* NetworkManager.swift in Sources */,
+				C25029C524A41CDC0054CE3D /* Breeds.swift in Sources */,
+				C25029C124A418540054CE3D /* Cats.swift in Sources */,
+				C23627F724A5256400635E30 /* Photo+Extensions.swift in Sources */,
+				C25029C824A424F00054CE3D /* Networkabl.swift in Sources */,
+				C25029BB24A405360054CE3D /* GalleryViewCell.swift in Sources */,
+				C25029B924A404970054CE3D /* GalleryViewController.swift in Sources */,
+				C23627F524A5094500635E30 /* FavoriteListController.swift in Sources */,
+				C23627EB24A4BB3300635E30 /* DataController.swift in Sources */,
 				C250299E24A3F6AD0054CE3D /* AppDelegate.swift in Sources */,
-				C25029A024A3F6AD0054CE3D /* SceneDelegate.swift in Sources */,
+				C25029C324A418F40054CE3D /* Category.swift in Sources */,
+				C23627F324A503E000635E30 /* DetaileViewController.swift in Sources */,
+				C25029BD24A409F00054CE3D /* TommyApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +450,13 @@
 		};
 		C25029AF24A3F6D80054CE3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01F77A6DA7E2120A6D61595 /* Pods-Tommy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AHN3M29KUF;
 				INFOPLIST_FILE = Tommy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,11 +470,13 @@
 		};
 		C25029B024A3F6D80054CE3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7485659214EAF2FC528D993 /* Pods-Tommy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AHN3M29KUF;
 				INFOPLIST_FILE = Tommy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +510,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C23627E724A4BA3800635E30 /* TommyDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C23627E824A4BA3800635E30 /* TommyDB.xcdatamodel */,
+			);
+			currentVersion = C23627E824A4BA3800635E30 /* TommyDB.xcdatamodel */;
+			path = TommyDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C250299224A3F6AC0054CE3D /* Project object */;
 }

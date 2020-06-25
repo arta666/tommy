@@ -6,5 +6,5 @@ target 'Tommy' do
   use_frameworks!
 
   # Pods for Tommy
-
+  pod 'Moya', '~> 14.0'
 end

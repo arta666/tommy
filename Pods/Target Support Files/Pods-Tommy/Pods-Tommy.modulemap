@@ -1,0 +1,6 @@
+framework module Pods_Tommy {
+  umbrella header "Pods-Tommy-umbrella.h"
+
+  export *
+  module * { export * }
+}
