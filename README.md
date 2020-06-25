@@ -1,6 +1,6 @@
 # Tommy
 
-This app use  [The Cat Api](https://thecatapi.com) to download and store photos in your device.also you can add some pic in your favorite list
+This app use [The Cat Api](https://thecatapi.com) to get random photo of funny cats and Displays to user.also user can store and add photo in favorite list
 
 ## What you need to do
 
