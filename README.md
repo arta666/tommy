@@ -21,6 +21,7 @@ Also i use [Moya](https://github.com/Moya/Moya) to handle my network stuff.
 
 
 ## Screenshots
-<img src="./screenshot/1.png" width="200">
-<img src="./screenshot/2.png" width="200">
-<img src="./screenshot/3.png" width="200">
+
+<img src="./screens/a.png" width="200">
+<img src="./screens/b.png" width="200">
+<img src="./screens/c.png" width="200">

@@ -34,6 +34,8 @@ class FavoriteListController : UITableViewController {
             tableView.deselectRow(at: indexPath, animated: false)
             tableView.reloadRows(at: [indexPath], with: .fade)
         }
+        
+        self.tableView.reloadData()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -72,9 +74,8 @@ class FavoriteListController : UITableViewController {
         
        
     }
-    
-    /// Deletes the notebook at the specified index path
-    func deleteNotebook(at indexPath: IndexPath) {
+  
+    func deleteImage(at indexPath: IndexPath) {
         let notebookToDelete = fetchedResultsController.object(at: indexPath)
         dataController.viewContext.delete(notebookToDelete)
         try? dataController.viewContext.save()
@@ -131,7 +132,7 @@ extension FavoriteListController {
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         switch editingStyle {
-        case .delete: deleteNotebook(at: indexPath)
+        case .delete: deleteImage(at: indexPath)
         default: () // Unsupported
         }
     }
