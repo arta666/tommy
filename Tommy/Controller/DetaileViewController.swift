@@ -89,9 +89,9 @@ class DetaileViewContrtoller : UIViewController {
     }
     
     func removeFavorite() {
-        photo.isfavorite = true
+        photo.isfavorite = false
         try? dataController.viewContext.save()
-        toggleBarButton(favButton, enabled: true)
+        toggleBarButton(favButton, enabled: false)
     }
     
     

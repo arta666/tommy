@@ -8,7 +8,7 @@
 
 import Moya
 enum TommyApi {
-    case getCats(limit: Int=20,page: Int)
+    case getCats(limit: Int=30,page: Int)
 }
 
 extension TommyApi : TargetType{
