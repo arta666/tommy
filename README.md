@@ -1,11 +1,11 @@
 # Tommy
 
-This app use  [The Cat Api](https://thecatapi.com) api to download and store photos in your device.also you can add some pic in your favorite list
+This app use  [The Cat Api](https://thecatapi.com) to download and store photos in your device.also you can add some pic in your favorite list
 
 ## What you need to do
 
-This app use [The Cat Api](https://thecatapi.com) api to get pictures.
-so you need sign up in flicker and get your api key.
+This app use [The Cat Api](https://thecatapi.com) to get pictures.
+so you need sign up in [The Cat](https://thecatapi.com) and get your api key.
 
 After you get your api key modify this file **TommyApi.swift**
 
