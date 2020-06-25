@@ -15,13 +15,15 @@ After you get your api key modify this file **TommyApi.swift**
     }
 ```
 
-Also i use [Moya](https://github.com/Moya/Moya) to handle my network stuff.
+And also I use [Moya](https://github.com/Moya/Moya) to handle my network stuff.
 
 [Moya](https://github.com/Moya/Moya) is one of the  powerfull library to handle your network request in your projects
 
 
 ## Screenshots
-
+<dive>
 <img src="./screens/a.png" width="200">
 <img src="./screens/b.png" width="200">
 <img src="./screens/c.png" width="200">
+<img src="./screens/d.png" width="200">
+</dive>
