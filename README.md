@@ -1,6 +1,13 @@
 # Tommy
 
+<img src="./Tommy/Assets/Assets.xcassets/AppIcon.appiconset/appstore.png" width="200">
+
 This app use [The Cat Api](https://thecatapi.com) to get random photo of funny cats and Displays to user.also user can store and add photo in favorite list
+
+
+## Tested In
+- XCode Version 11.5 
+- IOS 11
 
 ## What you need to do
 

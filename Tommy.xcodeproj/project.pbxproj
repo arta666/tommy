@@ -24,7 +24,7 @@
 		C25029C124A418540054CE3D /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C024A418540054CE3D /* Cats.swift */; };
 		C25029C324A418F40054CE3D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C224A418F40054CE3D /* Category.swift */; };
 		C25029C524A41CDC0054CE3D /* Breeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C424A41CDC0054CE3D /* Breeds.swift */; };
-		C25029C824A424F00054CE3D /* Networkabl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C724A424F00054CE3D /* Networkabl.swift */; };
+		C25029C824A424F00054CE3D /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C724A424F00054CE3D /* Networkable.swift */; };
 		C25029CA24A426280054CE3D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25029C924A426280054CE3D /* NetworkManager.swift */; };
 		F108A49604CCB8727D8669B4 /* Pods_Tommy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AF9487AD97FFF6DA209CE9 /* Pods_Tommy.framework */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		C25029C024A418540054CE3D /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
 		C25029C224A418F40054CE3D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C25029C424A41CDC0054CE3D /* Breeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breeds.swift; sourceTree = "<group>"; };
-		C25029C724A424F00054CE3D /* Networkabl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkabl.swift; sourceTree = "<group>"; };
+		C25029C724A424F00054CE3D /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		C25029C924A426280054CE3D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D7485659214EAF2FC528D993 /* Pods-Tommy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tommy.release.xcconfig"; path = "Target Support Files/Pods-Tommy/Pods-Tommy.release.xcconfig"; sourceTree = "<group>"; };
 		E01F77A6DA7E2120A6D61595 /* Pods-Tommy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tommy.debug.xcconfig"; path = "Target Support Files/Pods-Tommy/Pods-Tommy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		C25029C624A424D60054CE3D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				C25029C724A424F00054CE3D /* Networkabl.swift */,
+				C25029C724A424F00054CE3D /* Networkable.swift */,
 				C25029C924A426280054CE3D /* NetworkManager.swift */,
 				C23627EE24A4D4C700635E30 /* ImageService.swift */,
 			);
@@ -300,7 +300,7 @@
 				C25029C524A41CDC0054CE3D /* Breeds.swift in Sources */,
 				C25029C124A418540054CE3D /* Cats.swift in Sources */,
 				C23627F724A5256400635E30 /* Photo+Extensions.swift in Sources */,
-				C25029C824A424F00054CE3D /* Networkabl.swift in Sources */,
+				C25029C824A424F00054CE3D /* Networkable.swift in Sources */,
 				C25029BB24A405360054CE3D /* GalleryViewCell.swift in Sources */,
 				C25029B924A404970054CE3D /* GalleryViewController.swift in Sources */,
 				C23627F524A5094500635E30 /* FavoriteListController.swift in Sources */,

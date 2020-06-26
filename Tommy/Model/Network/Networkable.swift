@@ -13,6 +13,4 @@ protocol Networkable {
     var provider: MoyaProvider<TommyApi> { get }
     
     func search(page:Int,completion: @escaping ([Cats]?, Error?) -> ())
-//    func getPostWith(id: Int, completion: @escaping (Post?, Error?) -> ())
-//    func createPosth(post: Post, completion: @escaping (Post?, Error?) -> ())
 }
